@@ -1,0 +1,21 @@
+{
+    "name": "summer-breeze",
+    "displayName": "Summer Breeze",
+    "description": "A fresh nice color set",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.33.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Summer Breeze",
+                "uiTheme": "vs",
+                "path": "./themes/Summer Breeze-color-theme.json"
+            }
+        ]
+    }
+}
