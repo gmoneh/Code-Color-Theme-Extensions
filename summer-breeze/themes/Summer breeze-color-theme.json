@@ -263,7 +263,6 @@
 			"scope": "comment",
 			"settings": {
 				"foreground": "#919d9f",
-				"background": "",
 				"fontStyle": " italic"
 			}
 		},
@@ -494,12 +493,15 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#2e6b6b"
+				"foreground": "#45a1a1"
 			}
 		},
 		{
-			"name": "TS Class Def",
-			"scope": "storage.type.class",
+			"name": "TS Types",
+			"scope": [
+				"storage.type.class",
+				"storage.type.interface",
+			],
 			"settings": {
 				"foreground": "#4263f0",
 				"fontStyle": "bold"
@@ -512,7 +514,7 @@
 				"entity.name.variable.parameter"
 			],
 			"settings": {
-				"foreground": "#2e6b6b"
+				"foreground": "#45a1a1"
 			}
 		},
 		{
